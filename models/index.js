@@ -24,12 +24,7 @@ var User = require('./user')(twitterjsDB);
 User.hasMany(Tweet);
 Tweet.belongsTo(User);
 
-// User.findOne()
-// .then(function (user) {
-//     // big old crazy object, but no name or 
-//     // id anywhere in there
-//     console.log(user); 
-// });
+
 
 
 module.exports = {

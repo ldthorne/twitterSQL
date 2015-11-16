@@ -5,10 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js",
-    "twerk": "echo \"I am twerking\""
+    "start": "nodemon app.js"
   },
-  "author": "Gabriel Lebec <glebec@gmail.com> (https://github.com/glebec)",
+  "author": "Leon Daniel Thorne <ldthorne@brandeis.edu> (https://github.com/ldthorne)",
   "license": "MIT",
   "dependencies": {
     "body-parser": "1.14.1",
